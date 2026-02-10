@@ -1,9 +1,10 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2026",
-  "page_title": "REBUILT",
+  "title": "Scouting PASS 2026 PIT",
+  "page_title": "PIT",
   "pitConfig": "true",
+
   "prematch": [
     { "name": "Team Number",
       "code": "t",
@@ -65,6 +66,13 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
+
+    { "name": "Fuel Capacity",
+      "code": "pfc",
+      "type": "number",
+      "defaultValue": "0"
+    },
+
     { "name": "Floor pickup Fuel",
       "code": "fpu",
       "type": "bool"
@@ -77,12 +85,49 @@ var config_data = `
       "code": "opu",
       "type": "bool"
     },
+
+    { "name": "Can go over Bump",
+      "code": "pbm",
+      "type": "bool"
+    },
+    { "name": "Can go through Trench",
+      "code": "ptr",
+      "type": "bool"
+    },
+
     { "name": "Autos",
       "code": "aut",
       "type": "text",
       "size": 20,
       "maxSize": 250
     },
+
+    { "name": "What does an ideal alliance look like?",
+      "code": "pia",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
+
+    { "name": "Type",
+      "code": "prt",
+      "type": "text",
+      "size": 20,
+      "maxSize": 100
+    },
+
+    { "name": "Preferred Robot Strategy",
+      "code": "pps",
+      "type": "radio",
+      "choices": {
+        "scorer": "Scorer<br>",
+        "defense": "Defense<br>",
+        "shuttle": "Shuttle<br>",
+        "hybrid": "Hybrid"
+      },
+      "defaultValue": "scorer"
+    },
+
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
       "type": "text",
@@ -96,12 +141,9 @@ var config_data = `
       "maxSize": 250
     }
   ],
-  "auton": [
-  ],
-  "teleop": [
-  ],
-  "endgame": [
-  ],
-  "postmatch": [
-  ]
+
+  "auton": [],
+  "teleop": [],
+  "endgame": [],
+  "postmatch": []
 }`;
