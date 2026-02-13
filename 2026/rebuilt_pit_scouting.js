@@ -145,5 +145,6 @@ var config_data = `
   "auton": [],
   "teleop": [],
   "endgame": [],
-  "postmatch": []
+  "postmatch": [],
+  "analysis": []
 }`;
