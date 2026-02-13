@@ -11,12 +11,27 @@
 		<script src="resources/js/scoutingPASS.js"></script>
 		<script src="2026/rebuilt_config.js"></script>
 		<link rel="stylesheet" href="resources/css/scoutingPASS.css">
+		<style>
+		table {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		table {
+			width: auto !important;
+		}
+
+		td.title {
+			padding-right: 10px !important;
+			white-space: nowrap;
+		}
+		</style>
 	</head>
 
 	<body>
 		<form id="scoutingForm" onsubmit="return false" name="scoutingForm">
 			<div id="main-panel-holder">
-				<div id="prematch" class="main-panel" style="background-color: black;">
+				<div id="prematch" class="main-panel" style="background-color: rgb(0, 0, 0);">
 					<h1 id="prematchHeader1" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">N</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting PASS</h1>
 					<h2 id="prematchHeader2">pre-match</h2>
 					<p class="match-label"><input type="button" value="Next" id="nextButton1" onclick="swipePage(1)"></p>
@@ -65,6 +80,26 @@
 					</table>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton8" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton10" onclick="swipePage(1)"></p>
 				</div>
+
+				<div id="analysis" class="main-panel" style="background-color: rgb(225, 126, 69);">
+					<h1 class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">N</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting PASS</h1>
+					<h2>Analysis</h2>
+
+					<p class="match-label">
+						<input type="button" value="Prev" onclick="swipePage(-1)">
+						<input type="button" value="Next" onclick="swipePage(1)">
+					</p>
+
+					<table id="analysis_table">
+						<!-- ###ANALYSIS-COMPONENTS### -->
+					</table>
+
+					<p class="match-label">
+						<input type="button" value="Prev" onclick="swipePage(-1)">
+						<input type="button" value="Next" onclick="swipePage(1)">
+					</p>
+				</div>
+
 
 				<div id="qr-code" class="main-panel" style="background-color: white;">
 					<h1 id="qrHeader1" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">n</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting 2026</h1>
