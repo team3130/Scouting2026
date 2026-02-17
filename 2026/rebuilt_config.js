@@ -103,12 +103,11 @@ var config_data = `
 
     { "name": "Driver Skill", "code": "ds", "type": "radio",
       "choices": {
-        "n": "Not Observed<br>",
-        "a": "Not Effective<br>",
-        "v": "Average<br>",
-        "x": "Very Effective"
-      },
-      "defaultValue": "x"
+        "0": "Not Observed<br>",
+        "1": "Not Effective<br>",
+        "2": "Average<br>",
+        "3": "Very Effective"
+      }
     },
 
     { "name": "Defense Rating", "code": "dra", "type": "radio",

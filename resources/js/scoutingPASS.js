@@ -1027,13 +1027,6 @@ function clearForm() {
         e.checked = false
         document.getElementById("display_" + baseCode).value = ""
       }
-      var defaultValue = document.getElementById("default_" + baseCode).value
-      if (defaultValue != "") {
-        if (defaultValue == e.value) {
-          e.checked = true
-          document.getElementById("display_" + baseCode).value = defaultValue
-        }
-      }
     } else {
       if (e.type == "number" || e.type == "text" || e.type == "hidden") {
         if ((e.className == "counter") ||
