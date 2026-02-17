@@ -21,7 +21,7 @@ var config_data = `
       },
       "required": "true"
     },
-    { "name": "Team #", "code": "t", "type": "team", "min": 1, "max": 99999 },
+    { "name": "Team #", "code": "t", "type": "team", "min": 1, "max": 99999, "required": "true" },
 
     { "name": "Auto Start Location",
       "code": "as",
