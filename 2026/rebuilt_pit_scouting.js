@@ -146,5 +146,28 @@ var config_data = `
   "teleop": [],
   "endgame": [],
   "postmatch": [],
-  "analysis": []
+  "analysis": [
+    { "name": "Fuel Capacity", "code": "pfc", "type": "number", "newline": true },
+
+    { "name": "Pickup from Depot", "code": "ppd", "type": "bool" },
+    { "name": "Pickup from Outpost", "code": "ppo", "type": "bool" },
+    { "name": "Pickup from Neutral Zone", "code": "ppn", "type": "bool", "newline": true },
+
+    { "name": "Bump", "code": "pbump", "type": "bool" },
+    { "name": "Trench", "code": "ptrench", "type": "bool", "newline": true },
+
+    { "name": "Additional Type Notes", "code": "ptype", "type": "text", "newline": true },
+
+    { "name": "Preferred Robot Strategy",
+      "code": "pstrat",
+      "type": "radio",
+      "choices": {
+        "S": "Scorer",
+        "D": "Defense",
+        "P": "Shuttle",
+        "H": "Hybrid"
+      },
+      "newline": true
+    }
+  ]
 }`;
