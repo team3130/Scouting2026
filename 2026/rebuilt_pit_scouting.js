@@ -12,18 +12,15 @@ var config_data = `
     },
     { "name": "Height",
       "code": "hei",
-      "type": "number",
-      "defaultValue": "0"
+      "type": "number"
     },
     { "name": "Width",
       "code": "wid",
-      "type": "number",
-      "defaultValue": "0"
+      "type": "number"
     },
     { "name": "Weight",
       "code": "wei",
-      "type": "number",
-      "defaultValue": "0"
+      "type": "number"
     },
     { "name": "Drivetrain",
       "code": "drv",
