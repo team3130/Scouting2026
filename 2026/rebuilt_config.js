@@ -90,8 +90,7 @@ var config_data = `
         "1": "Level 1<br>",
         "2": "Level 2<br>",
         "3": "Level 3"
-      },
-      "defaultValue": "0"
+      }
     },
 
     { "name": "Attempt Climb", "code": "eca", "type": "bool" },
@@ -119,8 +118,7 @@ var config_data = `
         "2": "Average<br>",
         "3": "Good<br>",
         "4": "Excellent"
-      },
-      "defaultValue": "x"
+      }
     },
 
     { "name": "Speed Rating", "code": "sr", "type": "radio",
@@ -130,8 +128,7 @@ var config_data = `
         "3": "3<br>",
         "4": "4<br>",
         "5": "5 (fast)"
-      },
-      "defaultValue": "3"
+      }
     },
 
     { "name": "Crossed Bump", "code": "bmp", "type": "bool" },
