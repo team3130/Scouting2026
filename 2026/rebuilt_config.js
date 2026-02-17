@@ -111,7 +111,7 @@ var config_data = `
       "defaultValue": "x"
     },
 
-    { "name": "Defense Rating", "code": "dr", "type": "radio",
+    { "name": "Defense Rating", "code": "dra", "type": "radio",
       "choices": {
         "0": "Did not play defense<br>",
         "1": "Below Average<br>",
@@ -120,6 +120,16 @@ var config_data = `
         "4": "Excellent"
       }
     },
+
+    { "name": "Defense Response", "code": "dre", "type": "radio",
+          "choices": {
+            "0": "Did not experience defense<br>",
+            "1": "Below Average<br>",
+            "2": "Average<br>",
+            "3": "Good<br>",
+            "4": "Excellent"
+          }
+        },
 
     { "name": "Speed Rating", "code": "sr", "type": "radio",
       "choices": {
