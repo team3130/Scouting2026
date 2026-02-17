@@ -123,7 +123,7 @@ var config_data = `
 
     { "name": "Defense Response", "code": "dre", "type": "radio",
           "choices": {
-            "0": "Did not experience defense<br>",
+            "0": "No defense experienced<br>",
             "1": "Below Average<br>",
             "2": "Average<br>",
             "3": "Good<br>",
