@@ -10,6 +10,11 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
+    { "name": "Height",
+      "code": "hei",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Width",
       "code": "wid",
       "type": "number",
@@ -107,13 +112,6 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    },
-
-    { "name": "Type",
-      "code": "prt",
-      "type": "text",
-      "size": 20,
-      "maxSize": 100
     },
 
     { "name": "Preferred Robot Strategy",
