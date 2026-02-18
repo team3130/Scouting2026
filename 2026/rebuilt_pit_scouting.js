@@ -16,7 +16,7 @@ var config_data = `
     },
     { "name": "Width",
       "code": "wid",
-      "type": "number"
+      "type": "text"
     },
     { "name": "Weight",
       "code": "wei",
