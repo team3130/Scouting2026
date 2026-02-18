@@ -982,7 +982,7 @@ function clearForm() {
   var e = 0;
 
   if (pitScouting) {
-    swipePage(-2);
+    swipePage(-1);
   } else {
     swipePage(-5);
 
