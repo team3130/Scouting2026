@@ -60,7 +60,7 @@ var config_data = `
         "n": "Neo<br>",
         "f": "Falcon<br>",
         "c": "CIM<br>",
-        "k": "Kraken", 
+        "k": "Kraken<br>", 
         "x": "Other<br>"
       },
       "defaultValue":"x"
