@@ -98,6 +98,16 @@ var config_data = `
       "type": "bool"
     },
 
+    { "name": "Climb Level",
+      "code": "cml",
+      "type": "radio",
+      "choices": {
+        "0": "0<br>",
+        "1": "1<br>",
+        "2": "2<br>",
+        "3": "3<br>", 
+      },
+
     { "name": "Autos",
       "code": "aut",
       "type": "text",
