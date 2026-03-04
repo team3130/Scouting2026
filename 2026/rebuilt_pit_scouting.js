@@ -99,14 +99,15 @@ var config_data = `
     },
 
     { "name": "Climb Level",
-      "code": "cml",
+      "code": "cmbl",
       "type": "radio",
       "choices": {
         "0": "0<br>",
         "1": "1<br>",
         "2": "2<br>",
         "3": "3<br>"
-      },
+      }
+    },
 
     { "name": "Autos",
       "code": "aut",
