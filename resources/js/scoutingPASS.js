@@ -963,11 +963,16 @@ function qr_regenerate() {
     }
   }
 
-  // Get data
-  data = getData(dataFormat)
+  // Get the raw data
+  var rawData = getData(dataFormat);
+
+  // Fix apostrophes, quotes, and dashes
+  var cleanData = rawData.replace(/[\u2018\u2019\u00b4]/g, "'") // Curly + acute accent
+                       .replace(/[\u201C\u201D]/g, '"')      // Curly double quotes
+                       .replace(/[\u2013\u2014]/g, "-");     // En-dash and Em-dash
 
   // Regenerate QR Code
-  qr.makeCode(data)
+  qr.makeCode(cleanData)
 
   updateQRHeader()
   return true
