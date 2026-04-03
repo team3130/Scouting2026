@@ -72,7 +72,7 @@ var config_data = `
 
     { "name": "Fuel Capacity",
       "code": "pfc",
-      "type": "number",
+      "type": "text",
       "defaultValue": "0"
     },
 
